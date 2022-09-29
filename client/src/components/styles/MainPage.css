@@ -1,0 +1,212 @@
+#mainPage{
+    padding-top: 30%;
+    min-height: 85vh;
+    background-color: var(--back16);
+}
+.mainPageContent{
+    text-align: center;
+}
+.mainPageContent > img{
+    width: 100%;
+}
+.mainPageContent > h1{
+    font-size: 1.5em;
+    padding: 10px;
+    text-align: center;
+}
+.mainPageContent > p{
+    padding: 15px;
+    font-size: 18px;
+}
+
+/* SIDE IMAGES */
+#hf-images-div{
+    width: 100%;
+    margin-top: -50%;
+    position: absolute;
+}
+.img-inline{
+    display: block;
+    cursor: pointer;
+    opacity: 0.9;
+}
+.img-left{
+    height: 150px;
+    width: 200px;
+}
+#left-first-img,
+#left-last-img{
+    width: 170px;
+    height: 120px;
+}
+#left-first-img{
+    border-top-right-radius: 30px;
+}
+#left-last-img{
+    border-bottom-right-radius: 30px;
+}
+#left-center-img{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+#img-div__right{
+    float: right;
+}
+.img-right{
+    height: 150px;
+    width: 80%;
+    margin-left: 20%;
+}
+#right-first-img
+,#right-last-img{
+    width: 65%;
+    margin-left: 35%;
+    height: 120px;
+}
+#right-first-img{
+    border-top-left-radius: 30px;
+}
+#right-last-img{
+    border-bottom-left-radius: 30px;
+}
+#right-center-img{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+/* for mi phone browsers */
+@media screen and (max-width: 360px) and (max-height: 562px){
+    #mainPage{
+        padding-top: 15%;
+    }
+}
+
+@media screen and (max-width: 964px){
+    #hf-images-div{
+        display: none;
+    }
+}
+
+@media (min-width: 510px) and (max-width: 609px){
+    #mainPage{
+        padding-top: 18%;
+    }
+    .mainPageContent > h1{
+        font-size: 1.9em;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .mainPageContent > p{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media screen and (min-width: 610px){
+    #mainPage{
+        padding-top: 15%;
+        min-height: 90vh;
+    }
+    .mainPageContent > h1{
+        font-size: 1.9em;
+    }
+    .mainPageContent > p{
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+    .mainPageContent > img{
+        width: 95%;
+    }
+}
+@media screen and (min-width: 769px){
+    #mainPage{
+        padding-top: 70px;
+        min-height: 90vh;
+        width: 100%;
+    }
+    .mainPageContent > h1{
+        font-size: 2em;
+    }
+    .mainPageContent > p{
+        padding-left: 110px;
+        padding-right: 110px;
+    }
+    .mainPageContent > img{
+        width: 85%;
+    }
+}
+
+@media screen and (min-width: 864px){
+    .mainPageContent > p{
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+    .mainPageContent > img{
+        width: 75%;
+    }
+    .mainPageContent > p{
+        padding-left: 140px;
+        padding-right: 140px;
+    }
+}
+@media screen and (min-width: 965px){
+    #mainPage{
+        padding-top: 10%;
+    }
+    .mainPageContent > img{
+        width: 55%;
+    }
+    .mainPageContent > p{
+        padding-left: 250px;
+        padding-right: 250px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    #mainPage{
+        padding-top: 7%;
+    }
+    .mainPageContent > p{
+        padding-left: 300px;
+        padding-right: 300px;
+    }
+    .img-inline:hover{
+        opacity: 1;
+    }
+}
+@media screen and (min-width: 1300px){
+    #mainPage{
+        padding-top: 5%;
+    }
+    .mainPageContent > img{
+        width: 40%;
+    }
+    .mainPageContent > p{
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+    #hf-images-div{
+        margin-top: -35%;
+    }
+
+    .img-left{
+        height: 200px;
+        width: 290px;
+    }
+    #left-first-img,
+    #left-last-img{
+        width: 250px;
+        height: 150px;
+    }
+    .img-right{
+        height: 200px;
+        width: 290px;
+        margin-left: 290px;
+    }
+    #right-first-img
+    ,#right-last-img{
+        width: 250px;
+        margin-left: 56.5%;
+        height: 150px;
+    }
+}

@@ -1,76 +1,40 @@
-<p align="center">
-    <img src="./client/public/MERN.png" alt="mongo" height="100" />
-</p>
-<h1 align="center">BOILERPLATE</h1>
+![Hacktober Fest 2021 checker](/client/public/hackfest21.svg)
 
-This is a boilerplate repo for creating new mern stack apps that doesn't sucks.
+Website to check the progress for the Hacktober Fest 21 or not
 
-This is minimalist boilerplate for Full Stack MERN developers *(Recommended for beginners only)*. This boilerplate provides basic configurations like:
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/TECHOUS/HacktoberFest21?style=for-the-badge)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/TECHOUS/HacktoberFest21?style=for-the-badge)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/TECHOUS/HacktoberFest21?style=for-the-badge)
+![Lines of code](https://img.shields.io/tokei/lines/github/TECHOUS/HacktoberFest21?style=for-the-badge)
 
-* Sample CRUD API
-* Create-react-app boilerplate
-* NPM Scripts needed for MERN Stack
-* Sample mongoose connection provided for connecting API with database like mongodb
-* Heroku Deployment Configurations
+![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/TECHOUS/HacktoberFest21?style=for-the-badge&color=cyan)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/TECHOUS/HacktoberFest21?style=for-the-badge)
+![GitHub issues](https://img.shields.io/github/issues-raw/TECHOUS/HacktoberFest21?style=for-the-badge)
+![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/TECHOUS/HacktoberFest21?style=for-the-badge)
 
-## Available Scripts
+![GitHub forks](https://img.shields.io/github/forks/TECHOUS/HacktoberFest21?style=social)
+![GitHub Repo stars](https://img.shields.io/github/stars/TECHOUS/HacktoberFest21?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/TECHOUS/HacktoberFest21?style=social)
 
-For APIs to work in development please add a **.env** file in root of the project and add your **MONGODB_URI** in that file.
+Check this out at
 
-### `yarn start`
+[![Website](https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=https://hacktoberfest21.herokuapp.com&url=https%3A%2F%2Fhacktoberfest21.herokuapp.com&style=for-the-badge)](https://hacktoberfest21.herokuapp.com)
 
-Runs the server in the production mode.<br />
-Open [http://localhost:5000/api/v1/get](http://localhost:5000/api/v1/get) to view sample CRUD API output from server in the browser.
+or
 
-### `yarn run dev`
+[![Website](https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=hacktoberfest21.ml&url=http%3A%2F%2Fhacktoberfest21.ml&style=for-the-badge)](http://hacktoberfest21.ml)
 
-Runs the server in the development mode.<br />
-Open [http://localhost:5000/api/v1/get](http://localhost:5000/api/v1/get) to view sample CRUD API output from server in the browser.
+## Code Of Conduct
 
-The server will auto restart if you make any changes.
+We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_CONDUCT.md).
 
-### `yarn run client`
+## Contributing Guidelines
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Please read our [contributing guidelines here](.github/CONTRIBUTING.md)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `yarn run mern`
+![license](https://img.shields.io/github/license/TECHOUS/HacktoberFest21?style=for-the-badge)
 
-Runs the **server** and the **client** at the **same time** that makes MERN Stack development easier.<br>
+:copyright: TECHOUS 2021
 
-Open [http://localhost:5000/api/v1/get](http://localhost:5000/api/v1/get) to view sample CRUD API output from server in the browser.<br>
-
-Open [http://localhost:3000](http://localhost:3000) to view React App in the browser.
-
-## Steps for Heroku Deployment
-
-### Dependencies
-
-* nodejs
-* yarn package manager
-* heroku cli
-
-### Deployment Steps
-
-1. Check whether you have heroku installed in you PC or not using `heroku --version` command. If you don't have then you can install it from [here](https://devcenter.heroku.com/articles/heroku-cli).
-
-2. Create your account if you don't have any.
-
-3. Then open the terminal or cmd in root directory and make sure you have created a git repository for your project. Remove **.git** directory if present in **client** folder otherwise it may lead to deployment issues.
-
-4. **All the heroku build deployment scripts are provided you can review and update the engine in root package.json if you want to deploy with any other version of node and yarn** .
-
-5. Then login your heroku account using `heroku login`.
-
-6. After login its time to create a new app with you app name using `heroku create <your unique app name>`. If you get name already used then you have to choose any other unique name.
-
-7. Now open the heroku account in the browser, you will see your app is created. Then open the settings of the app and in the config vars add **heroku variables** like **MONGODB_URI**.
-
-8. For deployment run `git push heroku master` and it will deploy your app on heroku.
-
-## LICENSE
-
-[MIT LICENSE](LICENSE)
+**Disclaimer: This site is a fan made**

@@ -1,0 +1,21 @@
+.noDataView{
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 50px;
+}
+
+.noDataView > h3{
+    padding: 20px;
+}
+
+.noDataView > p{
+    font-size: 18px;
+}
+
+.fa-searchengin{
+    color: var(--back15);
+}
+.no-data-exc{
+    color: var(--back13);
+}
